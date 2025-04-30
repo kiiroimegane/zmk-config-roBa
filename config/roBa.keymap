@@ -81,7 +81,7 @@
         kagikakko: kagikakko {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LBKT &kp LBRC &kp LEFT_ARROW>;
+            bindings = <&kp RIGHT_BRACKET &kp BACKSLASH &kp LEFT_ARROW>;
             label = "KAGIKAKKO";
         };
     };
