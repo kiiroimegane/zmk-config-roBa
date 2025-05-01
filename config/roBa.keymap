@@ -122,17 +122,17 @@
 
         NUM {
             bindings = <
-&kp ESCAPE  &kp F2     &kp F3     &kp F4     &kp F5                                                           &kp LC(Y)      &kp F7           &kp F8         &kp F9            &kp DELETE
-&kp LC(A)   &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LS(N8)         &kp LC(LA(KP_NUMBER_0))      &msc SCRL_LEFT   &kp LS(N9)     &trans           &kp PAGE_UP    &trans            &kp F12
-&kp LC(Z)   &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp RIGHT_BRACKET  &kp EQUAL                    &msc SCRL_RIGHT  &kp BACKSLASH  &msc MOVE_Y(10)  &kp PAGE_DOWN  &msc MOVE_Y(-10)  &trans
-&trans      &trans     &trans     &trans     &trans             &trans                       &trans           &trans                                                           &trans
+&kp ESCAPE  &kp F2     &kp F3     &kp F4     &kp F5                                                         &kp LC(Y)      &kp F7          &kp F8         &kp F9           &kp DELETE
+&kp LC(A)   &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LS(N8)         &kp LC(LA(KP_NUMBER_0))      &kp PAGE_UP    &kp LS(N9)     &trans          &kp PAGE_UP    &trans           &kp F12
+&kp LC(Z)   &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp RIGHT_BRACKET  &kp EQUAL                    &kp PAGE_DOWN  &kp BACKSLASH  &msc SCRL_LEFT  &kp PAGE_DOWN  &msc SCRL_RIGHT  &trans
+&trans      &trans     &trans     &trans     &trans             &trans                       &trans         &trans                                                         &trans
             >;
         };
 
         ARROW {
             bindings = <
 &kp ESCAPE  &kagikakko  &kakko     &kp LS(NUMBER_6)  &kp RS(CARET)                         &kp PLUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LS(MINUS)
-&kp COMMA   &kp PERIOD  &kp SLASH  &kp RS(COLON)     &kp LS(N5)        &trans      &trans  &kp ASTERISK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
+&kp COMMA   &kp PERIOD  &kp SLASH  &kp SQT           &kp LS(N5)        &trans      &trans  &kp ASTERISK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
 &trans      &trans      &kp PIPE   &kp AT_SIGN       &kp LS(NUMBER_1)  &trans      &trans  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH
 &trans      &trans      &trans     &trans            &trans            &trans      &trans  &trans                                                  &trans
             >;
