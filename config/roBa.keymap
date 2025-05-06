@@ -123,7 +123,7 @@
         NUM {
             bindings = <
 &kp ESCAPE  &kp F2     &kp F3     &kp F4     &kp F5                                                            &kp LC(Y)      &kp F7          &kp F8         &kp F9           &kp DELETE
-&kp LC(A)   &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LS(N8)         &kp LC(LA(KP_NUMBER_0))      &msc MOVE_Y(20)   &kp LS(N9)     &trans          &kp PAGE_UP    &trans           &kp F12
+&kp LC(A)   &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LS(N8)         &kp LC(LA(KP_NUMBER_0))      &msc MOVE_Y(20)   &kp LS(N9)     &mkp MB1        &kp PAGE_UP    &mkp MB2         &kp F12
 &kp LC(Z)   &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp RIGHT_BRACKET  &kp EQUAL                    &msc MOVE_Y(-20)  &kp BACKSLASH  &msc SCRL_LEFT  &kp PAGE_DOWN  &msc SCRL_RIGHT  &trans
 &trans      &trans     &trans     &trans     &trans             &trans                       &trans            &trans                                                         &trans
             >;
